@@ -1,0 +1,5 @@
+<div *ngFor="let post of posts">
+  <p class="title">{{ post.data.title }}</p>
+  <img src="{{ post.data.thumbnail }}" alt="subreddit img" />
+  <a class="links" href="{{ post.data.url }}">Click me!</a>
+</div>
